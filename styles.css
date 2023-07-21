@@ -119,7 +119,14 @@
     line-height: 2rem;
 }
 .work-img{
-    margin-top: 3rem;
+    margin: 3rem auto;
+    max-width: 31rem;
+    max-height: 26rem;
+}
+.work-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 /* Comments */
 .comments{
